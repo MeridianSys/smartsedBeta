@@ -1,0 +1,215 @@
+# English (United Kingdom) translations for Trac.
+# Copyright (C) 2008-2012 Edgewall Software
+# This file is distributed under the same license as the Trac project.
+# David Lodge <dave@cirt.net>, 2008.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Trac 0.12\n"
+"Report-Msgid-Bugs-To: trac-dev@googlegroups.com\n"
+"POT-Creation-Date: 2008-06-28 15:16+0200\n"
+"PO-Revision-Date: 2012-02-25 10:30+0100\n"
+"Last-Translator: Mikael Relbe <mikael@relbe.se>\n"
+"Language-Team: en_GB <trac-dev@googlegroups.com>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 0.9.5\n"
+#: tracopt/mimeview/php.py:96
+
+# Langing Page variables
+
+############## Header translation - starts ##################################
+#############################################################################
+
+msgid "header_email_one"
+msgstr "Please enter email address"
+msgid "header_email_two"
+msgstr "Please enter valid email address"
+msgid "header_password"
+msgstr "Please enter password"
+msgid "referal_msg"
+msgstr "Separate multiple email addresses by using a comma."
+
+
+
+
+
+
+msgid "Remember_Me"
+msgstr "Remember Me"
+
+msgid "Forgot_Password"
+msgstr "Forgot Password"
+
+msgid "CLOSE"
+msgstr "CLOSE X"
+msgid "Message_Success"
+msgstr "Password has been sent to the registered email address"
+msgid "Message_Fail"
+msgstr "Please provide registered email address."
+############## Header translation - ends ##################################
+#############################################################################
+
+############## Index translation - starts ##################################
+#############################################################################
+
+msgid "Inform"
+msgstr "Inform"
+
+msgid "Explore"
+msgstr "Explore"
+
+msgid "Inform_details_one"
+msgstr "First incentivized online learning platform"
+
+msgid "Inform_details_two"
+msgstr "for students and professionals seeking conversational fluency in one of our 38 languages."
+
+msgid "Learn"
+msgstr "Learn"
+
+msgid "Learn_details_one"
+msgstr "Personalized language learning programs"
+
+msgid "Learn_details_two"
+msgstr "to help you succeed in your educational and professional aspirations."
+
+msgid "Earn"
+msgstr "Earn"
+
+msgid "Earn_details_one"
+msgstr "Win monthly prizes just for learning"
+
+msgid "Earn_details_two"
+msgstr "and accumulating eDiv points by successfully completing your exclusive language modules."
+
+msgid "Circle_of_Success"
+msgstr "Visit the Circle of Success!"
+
+msgid "Circle_of_Success_details"
+msgstr "Check out what our users have earned on SmartsEd. The next eDiv winners will be announced in:"
+
+msgid "Btn_visit_now"
+msgstr "Visit Now"
+
+msgid "Our_Network"
+msgstr "Our Network"
+
+msgid "Our_Network1"
+msgstr "Learn with native speakers in an interactive environment."
+
+msgid "Our_Network2"
+msgstr "Build vocabulary, grammar, writing, and speaking skills."
+
+msgid "Our_Network3"
+msgstr "Gain exposure to unforgettable cultural experiences."
+
+msgid "Our_Network4"
+msgstr "Acquire the tools to succeed in developing language proficiency."
+
+msgid "Our_Network5"
+msgstr "Win monthly cash and prizes just for learning."
+
+msgid "Program_Details"
+msgstr "Program Details"
+
+msgid "Firstname"
+msgstr "First Name"
+msgid "Lastname"
+msgstr "Last Name"
+msgid "Join_email"
+msgstr "Email"
+msgid "Join_password"
+msgstr "Password"
+msgid "Submit"
+msgstr "Submit"
+msgid "Login"
+msgstr "Log In"
+msgid "Join"
+msgstr "Join"
+
+msgid "Refer_Friend"
+msgstr "Refer a Friend"
+
+msgid "Refer_msg1"
+msgstr "Invite your friends by entering their email addresses"
+
+msgid "Refer_msg2"
+msgstr "Separate multiple ID's by adding a"
+
+msgid "Refer_pop1"
+msgstr "Thank you for your referral! Once your friend has registered on smarted.com"
+
+msgid "Refer_pop2"
+msgstr "eDiv points will be deposited in your eDiv account"
+
+msgid "OK"
+msgstr "OK"
+
+msgid "Cancel"
+msgstr "Cancel"
+
+msgid "Dashboard"
+msgstr "Dashboard"
+
+msgid "My_Account"
+msgstr "My Account"
+
+msgid "logout"
+msgstr "Logout"
+
+msgid "About_us"
+msgstr "The Company"
+
+msgid "termsandcond"
+msgstr "Terms Of Use"
+
+msgid "privacypolicy"
+msgstr "Privacy Policy"
+
+msgid "partners"
+msgstr "Partners"
+
+msgid "Help"
+msgstr "Help"
+
+msgid "Thanks"
+msgstr "Thank You"
+
+msgid "contact_us"
+msgstr "Contact Us"
+
+msgid "allrightsreserved"
+msgstr "Smartsed, Inc. All rights reserved"
+
+msgid "popmsg1"
+msgstr "English"
+
+msgid "popmsg2"
+msgstr "This course is designed to help learners progress towards conversational fluency in English. Containing 12 levels and over 400 hours of content, our English modules provide grammar instruction, videos, and interactive activities to build a strong proficiency in English."
+
+msgid "popmsg3"
+msgstr "Additional Languages"
+
+msgid "popmsg4"
+msgstr "We also offer French, Spanish, Italian and German courses. With 4 levels, ranging from beginner to advanced, and over 150 hours of content, these  modules provide grammar instruction, videos, and a variety of online activities to build a strong foundation in these languages. Each course also  includes writing and role play exercises enabling learners to apply their new skills."
+
+msgid "popmsg5"
+msgstr "Vocabulary Builder"
+
+msgid "popmsg6"
+msgstr "We provide foundational vocabulary-based courses in 38 languages. These courses use words, phrases, activities, imagery and audio. The objective of these modules is to  build crucial language patterns that teach vocabulary, sentence structure, and grammar."
+
+msgid "popmsgtitle"
+msgstr "Program Details"
+
+msgid "popmsgclose"
+msgstr "CLOSE X"
+
+msgid "feedback"
+msgstr "Feedback"
+
+############## Index translation - ends ##################################
+#############################################################################

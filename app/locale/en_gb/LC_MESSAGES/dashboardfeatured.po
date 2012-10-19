@@ -1,0 +1,31 @@
+# English (United Kingdom) translations for Trac.
+# Copyright (C) 2008-2012 Edgewall Software
+# This file is distributed under the same license as the Trac project.
+# David Lodge <dave@cirt.net>, 2008.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Trac 0.12\n"
+"Report-Msgid-Bugs-To: trac-dev@googlegroups.com\n"
+"POT-Creation-Date: 2008-06-28 15:16+0200\n"
+"PO-Revision-Date: 2012-02-25 10:30+0100\n"
+"Last-Translator: Mikael Relbe <mikael@relbe.se>\n"
+"Language-Team: en_GB <trac-dev@googlegroups.com>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 0.9.5\n"
+#: tracopt/mimeview/php.py:96
+
+msgid "dash_featured_msg1"
+msgstr "Featured Treatment "
+msgid "dash_featured_msg2"
+msgstr "Learn More"
+msgid "dash_featured_msg3"
+msgstr "Submit"
+msgid "dash_featured_msg4"
+msgstr "Featured Product"
+msgid "dash_featured_msg5"
+msgstr "Language Lab"
+

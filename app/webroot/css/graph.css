@@ -1,0 +1,164 @@
+div.group {
+	margin:-38px 0px 0px -21px;
+	width: 100%;
+	border: 0px dotted #ccc;
+	overflow: hidden;
+        float:  left;
+}
+div.group div * {
+	border-bottom: 0px dotted #ccc;
+	overflow: hidden;
+	clear: left;
+	margin:0px 0px 0px 0px;
+}
+div.group div.green * {
+	margin: 1px 0px 0px -20px;
+	background: -webkit-gradient(linear, left top, left bottom, from(#74aa47), to(#22602b));
+	background: -moz-linear-gradient(top, #74aa47, #22602b);/*mozill*/
+	background: -webkit-gradient(linear, center bottom, center top, from(#74aa47), to(#22602b));
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius:0px 3px 3px 0px;
+	border:1px solid #064624;
+	border-left: 0px;
+ 	box-shadow:0 0 2px #bedf89 inset;
+	margin:0px 0px 6px 0px;
+}
+div.group div.green p {
+        padding:0px 10px 10px 0;
+	color: #fff;
+	display: none;
+	float: left;
+	height:29px;
+	font-size:20px;
+	color: #fff;
+	font-weight:bold;
+	text-align:right;
+        margin: -3px 0 5px;
+}
+div.group div.yellow * {
+	margin: 1px 0;
+	background: -webkit-gradient(linear, left top, left bottom, from(#f3c42a), to(#d9ac25));
+	background: -moz-linear-gradient(top, #f3c42a, #d9ac25);/*mozill*/
+	background: -webkit-gradient(linear, center bottom, center top, from(#f3c42a), to(#d9ac25));
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius:0px 3px 3px 0px;
+	border:1px solid #b96500;
+	border-left: 0px;
+	/*-moz-box-shadow:inset 0 0 1px #f8dc6d;
+ 	-webkit-box-shadow:inset 0 0 1px #f8dc6d;
+ 	box-shadow:inset 0 0 1px #f8dc6d;*/
+    -moz-box-shadow: 0 0 5px #f8dc6d;
+	-webkit-box-shadow: 0 0 5px #f8dc6d;
+	box-shadow: 0 0 5px #f8dc6d;
+	margin:0px 0px 15px 0px;
+}
+div.group div.red * {
+	margin: 1px 0;
+	background: -webkit-gradient(linear, left top, left bottom, from(#ec2626), to(#b31515));
+	background: -moz-linear-gradient(top, #ec2626, #b31515);/*mozill*/
+	background: -webkit-gradient(linear, center bottom, center top, from(#ec2626), to(#b31515));
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius:0px 3px 3px 0px;
+	border:1px solid #b90000;
+	border-left: 0px;
+	/*-moz-box-shadow:inset 0 0 1px #cd6752;
+ 	-webkit-box-shadow:inset 0 0 1px #cd6752;
+ 	box-shadow:inset 0 0 1px #cd6752;*/
+    -moz-box-shadow: 0 0 5px #cd6752;
+	-webkit-box-shadow: 0 0 5px #cd6752;
+	box-shadow: 0 0 5px #cd6752;
+	margin:0px 0px 15px 0px;
+}
+div.group div em {
+	/*padding:15px 20px 0px 50px;*/
+    padding:11px 10px 0 0;
+	color: #fff;
+	display: none;
+	float: left;
+	height:40px;
+	font-size:25px;
+	color: #fff;
+	font-weight:bold;
+	text-align:right;
+}
+
+div.group div p {
+	/*padding:15px 20px 0px 50px;*/
+    padding:11px 10px 0 0;
+	color: #fff;
+	display: none;
+	float: left;
+	height:40px;
+	font-size:25px;
+	color: #fff;
+	font-weight:bold;
+	text-align:right;
+}
+
+div.group div.yellow em {
+	/*padding:15px 20px 0px 50px;*/
+    padding:15px 10px 0 0;
+	color: #fff;
+	display: none;
+	float: left;
+	height:48px;
+	font-size:25px;
+	color: #fff;
+	font-weight:bold;
+	text-align:right;
+}
+div.group div.red em {
+	/*padding:15px 20px 0px 50px;*/
+    padding:15px 10px 0 0;
+	color: #fff;
+	display: none;
+	float: left;
+	height:48px;
+	font-size:25px;
+	color: #fff;
+	font-weight:bold;
+	text-align:right;
+}
+div.group div.green p span {
+	color: #fff;
+	border: none;
+	background:none;
+	box-shadow:none;
+	background: -webkit-gradient(linear, left top, left bottom, from(none), to(none));
+	background: -moz-linear-gradient(top, transparent, transparent);/*mozill*/
+	background: -webkit-gradient(linear, center bottom, center top, from(none), to(none));
+        position: relative;
+}
+div.group div.green p span {
+	font-size:25px;
+	color: #fff;
+	border: none;
+	background:none;
+	box-shadow:none;
+	background: -webkit-gradient(linear, left top, left bottom, from(none), to(none));
+	background: -moz-linear-gradient(top, transparent, transparent);/*mozill*/
+	background: -webkit-gradient(linear, center bottom, center top, from(none), to(none));
+}
+div.group div.yellow em span {
+	font-size:25px;
+	color: #fff;
+	border: none;
+	background:none;
+	box-shadow:none;
+	background: -webkit-gradient(linear, left top, left bottom, from(none), to(none));
+	background: -moz-linear-gradient(top, transparent, transparent);/*mozill*/
+	background: -webkit-gradient(linear, center bottom, center top, from(none), to(none));
+}
+div.group div.red em span {
+	font-size:25px;
+	color: #fff;
+	border: none;
+	background:none;
+	box-shadow:none;
+	background: -webkit-gradient(linear, left top, left bottom, from(none), to(none));
+	background: -moz-linear-gradient(top, none, none);/*mozill*/
+	background: -webkit-gradient(linear, center bottom, center top, from(none), to(none));
+}

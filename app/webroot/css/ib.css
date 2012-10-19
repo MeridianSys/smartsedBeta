@@ -1,0 +1,82 @@
+/* 
+    Document   : ib.css
+    Created on : May 4, 2012, 3:21:25 PM
+    Author     : Anuj Oscar
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+.download h2{
+    font-family:Arial, Helvetica, sans-serif;
+    color: #595959;
+    font-size: 28px;
+    font-weight: bold;
+}
+.download h3{
+    font-family:Arial, Helvetica, sans-serif;
+    color: #595959;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top:10px;
+}
+.download h4{
+    font-family:Arial, Helvetica, sans-serif;
+    color: #D67B0E;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top:10px;
+}
+.download p{
+    color: #595959;
+    font-size:12px;
+    font-weight: bold;
+    padding:0px 0px 10px 0px;
+}
+.download .boxs {
+    background-color:#F5F5F5;
+    background:-moz-linear-gradient(center top , #F5F5F5, #DDDDDD);
+    background:-webkit-linear-gradient(center top , #F5F5F5, #DDDDDD);
+    background:-o-linear-gradient(center top , #F5F5F5, #DDDDDD);
+    border: 1px solid #C5C5C5;
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 0 0 2px #FFFFFF inset;
+    margin: 0 0 10px;
+    padding:10px 10px 10px 10px;
+    width: 635px;
+    color: #595959;
+    font-size:12px;
+    font-weight: bold;
+}
+
+.download .boxs a{
+    color: #D67B0E;
+}
+.download .boxs a:hover{
+    color: #c16a00;
+}
+.download ol{
+    list-style:decimal;
+    margin:0px;
+    padding:0px;
+    color:#595959;
+    font-weight:bold;
+    margin-left:25px;
+}
+.download ul{
+    list-style:decimal;
+    margin:0px;
+    padding:0px;
+    color:#595959;
+    font-weight:bold;
+    margin-left:25px;
+}
+.download li{
+    margin:5px 0px 5px 0px;
+    padding:0px 0px 0px 0px;
+}
+

@@ -1,0 +1,252 @@
+#circleofsucces{
+	background-color:#fcfcfc;
+	border:1px solid #b96500;
+	padding:15px 15px;
+	margin:40px 0px;
+}
+.edividentbg{
+	padding:10px;
+	margin:15px 0px;
+	height:144px;
+	border:1px solid #ccc;
+	border-radius:7px;
+	background-image: -webkit-linear-gradient(top, #f4f4f4, #ffffff);
+   /* Firefox 3.6+ */
+   background-image: -moz-linear-gradient(top, #f4f4f4, #ffffff);
+   /* IE 10+ */
+   background-image: -ms-linear-gradient(top, #f4f4f4, #ffffff);
+   /* Opera 11.10+ */
+   background-image: -o-linear-gradient(top, #f4f4f4, #ffffff);
+   -moz-box-shadow: 0 0 5px 3px #e7e7e7;
+	-webkit-box-shadow: 0 0 5px 3px #e7e7e7;
+	box-shadow: 0 0 5px 3px #e7e7e7;
+}
+#circleofsucces h3{
+	margin:0px;
+	padding:0px;
+	color:#f08f19;
+	font-size:16px;
+}
+
+#circleofsucces strong{
+	margin:0px;
+	padding:0px;
+	color:#fff;
+	font-size:24px;
+	font-weight:bold;
+}
+#circleofsucces h4{
+	margin:0px;
+	padding:0px;
+	color:#595959;
+	font-size:12px;
+	font-weight:bold;
+}
+
+#circleofsucces .textfield {
+	padding:0px 0px 0px 0px;
+	margin:0px 0px 0px 0px;
+}
+#circleofsucces .txtleftcor {
+	background:url(../img/top-left-cor-bg.png) no-repeat;
+	width:3px;
+	height:24px;
+	float:left;
+	margin:0px 0px 0px 0px;
+}
+#circleofsucces .txtmidbg input[type=text] {
+	background:url(../img/top-mid-cor-bg.png) repeat-x;
+	float:left;
+	border:none;
+	height:21px;
+	padding:3px 0px 0px 0px;
+	z-index:100;
+	margin:0px 0px 0px 0px;
+}
+#circleofsucces .txtmidbgmi input[type=text] {
+	background:url(../img/top-mid-cor-bg.png) repeat-x;
+	width:62px;
+	float:left;
+	border:none;
+	height:21px;
+	padding:3px 0px 0px 0px;
+	z-index:100;
+	margin:0px 0px 0px 0px;
+}
+#circleofsucces .txtmidbg input[type='password'] {
+	background:url(../img/top-mid-cor-bg.png) repeat-x;
+	float:left;
+	border:none;
+	height:21px;
+	padding:3px 0px 0px 0px;
+	z-index:1000;
+	margin:0px 0px 0px 0px;
+}
+
+
+#circleofsucces .txtrightcor {
+	background:url(../img/top-right-cor-bg.png) no-repeat;
+	width:7px;
+	height:24px;
+	float:left;
+	margin:0px 9px 0px 0px;
+}
+
+.scrollbg{
+	width:770px;
+	height:45px;
+	padding:10px 40px;
+	margin:10px auto;
+	font-size:12px;
+	font-weight:bold;
+	color:#fff;
+	border-radius:3px;
+	border:2px solid #767663;
+	background-color:#303030;
+	background-image: -webkit-linear-gradient(top, #303030, #5b5b5b);
+   /* Firefox 3.6+ */
+   background-image: -moz-linear-gradient(top, #303030, #5b5b5b);
+   /* IE 10+ */
+   background-image: -ms-linear-gradient(top, #303030, #5b5b5b);
+   /* Opera 11.10+ */
+   background-image: -o-linear-gradient(top, #303030, #5b5b5b);
+}
+   
+   
+.newsbg{
+	padding:10px;
+	margin:15px 0px;
+	width:437px;
+	height:191px;
+	float:left;
+	border:1px solid #ccc;
+	border-radius:7px;
+	background-image: -webkit-linear-gradient(top, #f4f4f4, #ffffff);
+   /* Firefox 3.6+ */
+   background-image: -moz-linear-gradient(top, #f4f4f4, #ffffff);
+   /* IE 10+ */
+   background-image: -ms-linear-gradient(top, #f4f4f4, #ffffff);
+   /* Opera 11.10+ */
+   background-image: -o-linear-gradient(top, #f4f4f4, #ffffff);
+   -moz-box-shadow: 0 0 5px 3px #e7e7e7;
+	-webkit-box-shadow: 0 0 5px 3px #e7e7e7;
+	box-shadow: 0 0 5px 3px #e7e7e7;
+}
+.ourfriendbg{
+	padding:10px;
+	margin:15px 0px;
+	width:437px;
+	height:191px;
+	float:right;
+	border:1px solid #ccc;
+	border-radius:7px;
+	background-image: -webkit-linear-gradient(top, #f4f4f4, #ffffff);
+   /* Firefox 3.6+ */
+        background-image: -moz-linear-gradient(top, #f4f4f4, #ffffff);
+   /* IE 10+ */
+        background-image: -ms-linear-gradient(top, #f4f4f4, #ffffff);
+    /* Opera 11.10+ */
+        background-image: -o-linear-gradient(top, #f4f4f4, #ffffff);
+        -moz-box-shadow: 0 0 5px 3px #e7e7e7;
+	-webkit-box-shadow: 0 0 5px 3px #e7e7e7;
+	box-shadow: 0 0 5px 3px #e7e7e7;
+}
+.scrollbg  .top_next{
+	background:url(../img/cir-next-btn.png) no-repeat;
+	float:right;
+	height:51px;
+	width:52px;
+	position:absolute;
+	margin-left:780px;
+	margin:-34px 0px 0px 740px;
+	cursor:pointer;
+	
+	
+}
+.scrollbg .top_prev{
+	float:left;
+	background:url(../img/cir-prev-btn.png)  no-repeat;
+	height:51px;
+	width:52px;
+	position:absolute;
+	margin:-9px 0px 0px -105px;
+	padding:0px;
+	cursor:pointer;
+}
+
+/*-----News-next-prev--------------*/
+
+.cn_preview, .cn_list{
+	margin-top:10px;
+	height:152px;
+	position:relative;
+}
+.cn_page p{
+	margin-top:10px;
+	overflow:hidden;
+}
+.cn_nav{
+	width:70px;
+	height:24px;
+	position:absolute;
+	bottom:0px;
+	left:0px;
+	top:138px;
+}
+a.cn_next, a.cn_prev{
+	float:left;
+	height:29px;
+	width:30px;
+	background-repeat:no-repeat;
+	background-position:center center;
+	cursor:pointer;
+	outline:none;
+}
+a.cn_next{
+	background-image:url(../img/news_next-btn.png);
+}
+a.cn_prev{
+	margin-right:5px;
+	background-image:url(../img/news_prev-btn.png);
+}
+.cn_page{
+	display:none;
+}
+
+
+
+
+#mycustomscroll {
+/* Typical fixed height and fixed width example */
+height:160px;
+overflow: auto;
+/* IE overflow fix, position must be relative or absolute*/
+position: relative;
+margin: 10px auto;
+padding:0px 10px 0px 0px;
+}
+
+#mycustomscroll2 {
+/* Typical fixed height and fixed width example */
+height:135px;
+overflow: auto;
+/* IE overflow fix, position must be relative or absolute*/
+position: relative;
+margin: 10px auto;
+padding:0px 10px 0px 0px;
+}
+
+.fixedwidth {
+/* a wide div is used for creating horizontal scrollbars for demonstration purposes */
+width: 437px;
+height: auto;
+position: relative;
+color: black;
+}
+
+
+.scrollgeneric {line-height: 1px;font-size: 1px; position: absolute;top: 0; left: 0;}
+
+.vscrollerbar {width:7px; background: #cccccc; height:15px; position:absolute; top:0px; margin-left:-3px; cursor:pointer;}
+.vscrollerbarend {height: 10px; width:2px;}
+.vscrollerbase {width:2px; background: #cccccc; margin-left:-2px;}

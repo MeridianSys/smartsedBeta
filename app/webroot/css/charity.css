@@ -1,0 +1,108 @@
+@CHARSET "UTF-8";
+#select-charity {
+    width: 900px;
+}
+#select-charity table {
+    border-collapse: separate;
+    border-spacing: 6px;
+    float: left;
+    margin-bottom: 76px;
+}
+#select-charity table td {
+    vertical-align: top;
+}
+#select-charity .charity-selection {
+    background: url("../img/bg-char.png") no-repeat scroll left top transparent;
+    float: left;
+    height: 170px;
+    margin: 2px;
+    position: relative;
+    width: 290px;
+}
+#select-charity .charity-selection p.charity-img-wrapper {
+    display: block;
+    margin: 0 auto;
+    padding-top: 10px;
+    text-align: center;
+}
+#select-charity .charity-selection h5 {
+    font-size: 8pt;
+    text-align: center;
+}
+#select-charity .charity-selection p.charity-body-wrapper {
+    font-size: 8pt;
+    padding: 0 13px;
+}
+#select-charity .charity-selection label.charity-select-wrapper {
+}
+ .charity-learn-more {
+ margin-top:0px;
+ padding:0px;
+	
+}
+	
+#header-box-charity {
+    background-image: url("../img/header-box-charity.png");
+    background-repeat: no-repeat;
+    height: 163px;
+    padding: 20px 20px 0 0;
+    width: 980px;
+}
+#create-your-goal {
+    background-image: url("../img/create-your-goal.png");
+    background-repeat: no-repeat;
+    float: right;
+    height: 522px;
+    position: relative;
+    top: 2px;
+    width: 297px;
+}
+#create-your-goal h3 {
+    color: white;
+    font-size: 19pt;
+    margin-bottom: 11px;
+    margin-left: 14px;
+    margin-top: 11px;
+}
+#create-your-goal p {
+    color: white;
+    font-size: 8pt;
+    line-height: 1.2em;
+    margin-left: 16px;
+    margin-right: 16px;
+}
+#create-your-goal form {
+    margin-left: 15px;
+}
+#create-your-goal select {
+    margin-top: 4px;
+    width: 260px;
+}
+#create-your-goal textarea {
+    background: url("../img/textarea-cyg-bg.png") repeat scroll 0 0 transparent;
+    border: 0 none;
+    color: white;
+    height: 60px;
+    margin-top: 8px;
+    padding-left: 7px;
+    padding-top: 6px;
+    width: 260px;
+}
+.ccontent {
+    float: left;
+    padding-top: 10px;
+    width: 160px;
+}
+.clogo {
+    float: left;
+    text-align: center;
+    width: 130px;
+}
+select-charity .charity-selection p.charity-body-wrapper {
+    font-size: 8pt;
+    padding: 0 13px;
+}
+p {
+    line-height: 1.4em;
+}
+

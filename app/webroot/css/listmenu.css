@@ -1,0 +1,235 @@
+.SSContainerDivWrapper {
+	left:-9999px;
+}
+.SSContainerDivWrapper {
+	margin:0;
+	padding:0;
+	position:absolute;
+	top:22px;
+	left:0;
+	z-index:2;
+}
+ul.newList {
+	margin:0;
+	padding:0;
+	list-style:none;
+	color:#000;
+	background-color: #E6E6E6;
+	border: 1px solid #9F9F9F;
+	overflow:auto;
+	width:219px;
+	z-index:10000;
+}
+ul.newList * {
+	margin:0;
+	padding:0;
+}
+ul.newList a {
+	color: #000;
+	text-decoration:none;
+	display:block;
+	padding:3px 8px;
+}
+
+.newListSelected {
+	width:223px;
+	color:#000;
+	height:42px;
+	padding:6px 0px 0px 6px;
+	margin-right:3px;
+	/*margin-bottom:13px;*/
+	float:left;
+	background:url(../img/selectbg_regs.png) no-repeat;
+	z-index:10000;
+}
+
+ul.newList li a:focus {
+	-moz-outline-style: none;
+}
+
+.selectedTxt {
+	width:190px;
+	overflow:hidden;
+	height:16px;
+	padding:0 23px 0 0;
+}
+.myListSelected {
+	width:124px;
+	color:#000;
+	height:29px;
+	padding:6px 0px 0px 6px;
+	float:left;
+	background:url(../img/myprofile-input-bg.png) no-repeat;
+	z-index:10000;
+        font-weight:normal;
+}
+.myselectedTxt {
+	width:124px;
+	overflow:hidden;
+	height:16px;
+	padding:0 0px 0 0;
+	text-align:left;
+	font-weight:normal;
+}
+ul.myList a{
+        font-size: 13px;
+	color: #000;
+	text-decoration:none;
+	display:block;
+	padding:3px 8px;
+	font-weight:normal;
+        font-style: normal;
+        text-align: left;
+}
+ul.myList a:hover{
+        font-size: 13px;
+	color: #000;
+	text-decoration:none;
+	display:block;
+	padding:3px 8px;
+	font-weight:normal;
+        font-style: normal;
+        text-align: left;
+}
+ul.myList {
+	margin:0;
+	padding:0;
+	list-style:none;
+	color:#000;
+	background-color: #E6E6E6;
+	border: 1px solid #9F9F9F;
+	overflow:auto;
+	width:130px;
+	z-index:10000;
+	font-weight:normal;
+}
+ul.myList * {
+	margin:0;
+	padding:0;
+        font-weight:normal;
+        font-style: normal;
+}
+.myListHover {
+	background:#ccc!important;
+	color:#000!important;
+	cursor:default;
+	font-weight:normal;
+}
+
+
+
+.dayListSelected {
+	width:53px;
+	color:#000;
+	height:29px;
+	padding:6px 0px 0px 6px;
+	float:left;
+	background:url(../img/month-bg.png) no-repeat;
+	z-index:10000;
+}
+.dayselectedTxt {
+	width:59px;
+	overflow:hidden;
+	height:16px;
+	padding:0 23px 0 0;
+}
+.dayselectedTxt {
+	width:59px;
+	overflow:hidden;
+	height:16px;
+	padding:0 23px 0 0;
+}
+ul.dayList a {
+	color: #000;
+	text-decoration:none;
+	display:block;
+	padding:3px 8px;
+}
+ul.dayList {
+	margin:0;
+	padding:0;
+	list-style:none;
+	color:#000;
+	background-color: #E6E6E6;
+	border: 1px solid #9F9F9F;
+	overflow:auto;
+	width:59px;
+	z-index:10000;
+}
+ul.dayList * {
+	margin:0;
+	padding:0;
+}
+
+
+
+.yearListSelected {
+	width:75px;
+	color:#000;
+	height:29px;
+	padding:6px 0px 0px 6px;
+	float:left;
+	background:url(../img/year-bg.png) no-repeat;
+	z-index:10000;
+}
+.yearselectedTxt {
+	width:81px;
+	overflow:hidden;
+	height:16px;
+	padding:0 23px 0 0;
+}
+.yearselectedTxt {
+	width:81px;
+	overflow:hidden;
+	height:16px;
+	padding:0 23px 0 0;
+}
+ul.yearList a {
+	color: #000;
+	text-decoration:none;
+	display:block;
+	padding:3px 8px;
+}
+ul.yearList {
+	margin:0;
+	padding:0;
+	list-style:none;
+	color:#000;
+	background-color: #E6E6E6;
+	border: 1px solid #9F9F9F;
+	overflow:auto;
+	width:81px;
+	z-index:10000;
+}
+ul.yearList * {
+	margin:0;
+	padding:0;
+}
+
+
+
+
+.hiLite {
+	background:#ccc!important;
+	color:#fff!important;
+	font-weight:normal;
+}
+.newListHover {
+	background:#ccc!important;
+	color:#000!important;
+	cursor:pointer;
+	font-weight:normal;
+}
+.newListSelHover, .newListSelFocus {
+	cursor:default;
+}
+.newListOptionTitle {
+	font-weight:bold;
+}
+.newListOptionTitle ul {
+	margin:3px 0 0;
+}
+.newListOptionTitle li {
+	font-weight:normal;
+	border-left:1px solid #ccc;
+}

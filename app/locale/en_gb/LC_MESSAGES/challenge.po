@@ -1,0 +1,34 @@
+# English (United Kingdom) translations for Trac.
+# Copyright (C) 2008-2012 Edgewall Software
+# This file is distributed under the same license as the Trac project.
+# David Lodge <dave@cirt.net>, 2008.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Trac 0.12\n"
+"Report-Msgid-Bugs-To: trac-dev@googlegroups.com\n"
+"POT-Creation-Date: 2008-06-28 15:16+0200\n"
+"PO-Revision-Date: 2012-02-25 10:30+0100\n"
+"Last-Translator: Mikael Relbe <mikael@relbe.se>\n"
+"Language-Team: en_GB <trac-dev@googlegroups.com>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 0.9.5\n"
+#: tracopt/mimeview/php.py:96
+
+msgid "cha_msg1"
+msgstr "See how well you compare to your peers on quiz sets generated from our question bank. The person with the most questions answered correctly wins. Just invite your challenger and choose the topic!"
+msgid "cha_msg2"
+msgstr "Good Luck"
+msgid "cha_msg3"
+msgstr "Challenge To"
+msgid "cha_msg4"
+msgstr "Challenge By"
+msgid "cha_msg5"
+msgstr "Rules of the Game"
+msgid "cha_msg6"
+msgstr "Rules of the Game"
+msgid "cha_msg7"
+msgstr "Max number of five (5) concurrent challenges per user at any time."

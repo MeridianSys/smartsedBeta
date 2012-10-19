@@ -1,0 +1,332 @@
+.myaccount-page {
+	background:url(../img/myaccount-bg.png) repeat-y;
+	width:980px;
+	border:1px solid #c5c5c5;
+	margin-bottom:10px;
+	margin-top:15px;
+	padding:0px 0px 20px 0px;
+}
+.myaccount-lft-part {
+	width:205px;
+	float:left;
+	/*background:url(../img/myacc-lft-part.jpg) repeat-y;*/
+	padding:20px 20px 0px 20px;
+}
+.pic {
+	width:100%;
+	height:189px;
+}
+.pic span {
+	font-family:arial;
+	color:#333333;
+	margin-top:5px;
+}
+.change-pass {
+	margin:25px 0px 0px 0px;
+	color:#333333;
+}
+.change-pass p strong {
+	color:#f08f19;
+}
+.change-pass p span {
+	color:#333333;
+	font-size:12px;
+	font-weight:bold;
+}
+.myaccount-lft-part .textfield {
+	padding:0px 0px 0px 0px;
+	margin:5px 0px 0px 0px;
+}
+.myaccount-lft-part .txtleftcor {
+	background:url(../img/top-left-cor-bg.png) no-repeat;
+	width:3px;
+	height:24px;
+	float:left;
+	margin:0px 0px 0px 0px;
+}
+.myaccount-lft-part .txtmidbg input[type=text] {
+	background:url(../img/top-mid-cor-bg.png) repeat-x;
+	float:left;
+	border:none;
+	height:21px;
+	padding:3px 0px 0px 0px;
+	z-index:100;
+	margin:0px 0px 0px 0px;
+}
+.myaccount-lft-part .txtmidbgmi input[type=text] {
+	background:url(../img/top-mid-cor-bg.png) repeat-x;
+	width:62px;
+	float:left;
+	border:none;
+	height:21px;
+	padding:3px 0px 0px 0px;
+	z-index:100;
+	margin:0px 0px 0px 0px;
+}
+.myaccount-lft-part .txtmidbg input[type='password'] {
+	background:url(../img/top-mid-cor-bg.png) repeat-x;
+	float:left;
+	border:none;
+	height:21px;
+	padding:3px 0px 0px 0px;
+	z-index:1000;
+	margin:0px 0px 0px 0px;
+}
+.mutipleselect {
+	background:url(../img/mutiple-sect-box.png) no-repeat;
+	width:208px;
+	height:69px;
+	padding:5px 10px 5px 10px;
+	z-index:100;
+	margin:0px 0px 0px 0px;
+	line-height:25px;
+}
+.mutipleselect select{
+	width:208px;
+	height:69px;
+    overflow: hidden;
+    padding: 0 0px 0 0;
+	border:0px;
+	background:none;
+	background-image:none;
+}
+.txtmidbglist select .tranbg {
+	background-color: #E6E6E6;
+	border: 1px solid #9F9F9F;
+	display:block;
+	zoom: 1;
+	filter: alpha(opacity=50);
+	opacity: 0.5;
+}
+.txtrightcor {
+	background:url(../img/top-right-cor-bg.png) no-repeat;
+	width:7px;
+	height:24px;
+	float:left;
+	margin:0px 9px 0px 0px;
+}
+.myaccount-reg-right {
+	width:705px;
+	float:right;
+	padding:20px 15px 20px 15px;
+}
+.myaccount-reg-right .textfield {
+	padding:0px 0px 5px 0px;
+	margin:7px 0px 0px 0px;
+}
+.myaccount-reg-right .txtleftcor {
+	background:url(../img/txtfield-left-cor.png) no-repeat;
+	width:3px;
+	height:29px;
+	float:left;
+	margin:0px 0px 0px 0px;
+}
+.myaccount-reg-right .txtmidbg input[type=text] {
+	background:url(../img/txtfield-mid-bg.png) repeat-x;
+	width:340px;
+	float:left;
+	border:none;
+	height:26px;
+	padding:3px 0px 0px 0px;
+	z-index:100;
+	margin:0px 0px 0px 0px;
+}
+.myaccount-reg-right .txtmidbgmi input[type=text] {
+	background:url(../img/txtfield-mid-bg.png) repeat-x;
+	width:62px;
+	float:left;
+	border:none;
+	height:26px;
+	padding:3px 0px 0px 0px;
+	z-index:100;
+	margin:0px 0px 0px 0px;
+}
+.myaccount-reg-right .txtmidbg input[type='password'] {
+	background:url(../img/txtfield-mid-bg.png) repeat-x;
+	width:340px;
+	float:left;
+	border:none;
+	height:26px;
+	padding:3px 0px 0px 0px;
+	z-index:1000;
+	margin:0px 0px 0px 0px;
+}
+.myaccount-reg-right .txtmidbglist select {
+	background:url(../img/txtfield-mid-bg.png) repeat-x;
+	float:left;
+	border:0px;
+	height:29px;
+	padding:2px 0px 2px 0px;
+	z-index:100;
+	margin:0px 0px 0px 0px;
+	display:block;
+	line-height:25px;
+	background-color: #E6E6E6;
+}
+.myaccount-reg-right .txtmidbglist select .tranbg {
+	background-color: #E6E6E6;
+	border: 1px solid #9F9F9F;
+	display:block;
+	zoom: 1;
+	filter: alpha(opacity=50);
+	opacity: 0.5;
+}
+.myaccount-reg-right .txtrightcor {
+	background:url(../img/txtfield-right-cor.png) no-repeat;
+	width:3px;
+	height:29px;
+	float:left;
+	margin:0px 9px 0px 0px;
+}
+.myaccount-reg-right strong {
+	color:#f08f19;
+}
+.myaccount-reg-right .green {
+	color:#006600;
+	font-style:12px;
+	font-weight:bold;
+	text-decoration:none;
+}
+.myaccount-reg-right .green a {
+	color:#006600;
+	font-style:12px;
+	font-weight:bold;
+	text-decoration:none;
+}
+.myaccount-reg-right p strong {
+	color:#ff5d26;
+}
+.myaccount-reg-right span strong {
+	color:#000;
+	font-size:13px;
+}
+.myaccount-reg-right span {
+	color:#333333;
+	font-size:13px;
+	font-weight:bold;
+}
+.myaccount-reg-right .profile-seting span a {
+	color:#666666;
+	font-size:11px;
+	font-weight:normal;
+	text-decoration:none;
+	padding:0px 0px 0px 5px;
+	font-style:normal;
+}
+.myaccount-reg-right .profile-seting span a:hover {
+	color:#666666;
+	font-size:11px;
+	font-weight:normal;
+	text-decoration:none;
+	padding:0px 0px 0px 5px;
+	font-style:normal;
+}
+.myaccount-reg-right .profile-seting {
+	width:310px;
+	float:left;
+	padding:0px 0px 10px 0px;
+
+}
+.myaccount-reg-right .language-pro {
+	width:350px;
+	float:right;
+	padding:0px 0px 0px 0px;
+
+}
+.myaccount-reg-right .language-pro span {
+	color:#333333;
+	font-size:13px;
+	font-weight:bold;
+}
+.myaccount-reg-right .language-pro a.close, a:hover.close {
+	color:#f08f19;
+	font-size:13px;
+	font-weight:bold;
+	text-decoration:none;
+}
+.myaccount-reg-right span a {
+	color:#000;
+	font-size:14px;
+	font-weight:bold;
+	text-decoration:none;
+	padding:0px 0px 0px 0px;
+}
+fieldset {
+	margin:5px 0px 0px 0px;
+	padding:0px;
+}
+fieldset p {
+	display: block;
+	position: relative;
+	overflow: hidden;
+	float:left;
+	margin:0px;
+	padding:0px;
+}
+.myaccount-reg-right p > input {
+	padding: 0;
+ *margin-top:5px;
+	height:16px;
+	width:16px;
+	float: right;
+	left: 0;
+	opacity: 0;
+}
+.myaccount-reg-right p > label {
+	float: right;
+	line-height:16px;
+	padding:6px 0px 0 20px;
+	font-family:Arial, Helvetica, sans-serif;
+	color:#000;
+}
+.myaccount-reg-right .remember fieldset p {
+	display: block;
+	position: relative;
+	overflow: hidden;
+}
+.myaccount-reg-right .remember fieldset p input[type=text], .myaccount-reg-right .remember fieldset p input[type=email] {
+	padding:3px;
+ *padding:3px;
+}
+.myaccount-reg-right .remember p > input {
+	height: 16px;
+	width: 16px;
+	margin:0px 0px 0px 0px;
+	padding:0px;
+	border:0px;
+	left: 0;
+	opacity: 0;
+}
+.myaccount-reg-right .remember p > label {
+	padding:0px 0px 0px 20px;
+ *padding:0px 0px 0px 5px;
+	margin:10px 5px 0px 0px;
+ *margin:5px 5px 0px 0px;
+	color:#000;
+	font-size:14px;
+	font-weight:bold;
+}
+.myaccount-reg-right .remember p:not(#foo) > input + label {
+ background-image: url(../img/checkboxbg.png);
+ background-repeat:no-repeat;
+ height: 16px;
+}
+.myaccount-reg-right .remember p:not(#foo) > input[type=checkbox]:checked + label {
+ background-position: 0 -16px;
+}
+.myaccount-reg-right .remember p:not(#foo) > input[type=checkbox]:hover:checked + label, .myaccount-reg-right .remember p:not(#foo) > input[type=checkbox]:focus:checked + label, .myaccount-reg-right .remember p:not(#foo) > input[type=checkbox]:checked + label:hover, .myaccount-reg-right .remember p:not(#foo) > input[type=checkbox]:focus:checked + label {
+ background-position: 0 -16px;
+}
+.myaccount-reg-right p:not(#foo) > input + label {
+ background: url(../img/radio.png) no-repeat;
+ height: 25px;
+}
+.myaccount-reg-right p:not(#foo) > input[type=radio] + label {
+ background-position: 0 6px;
+}
+.myaccount-reg-right p:not(#foo) > input[type=radio]:active + label, .myaccount-reg-right p:not(#foo) > input[type=radio] + label:hover:active {
+ background-position: 0 -19px;
+}
+.myaccount-reg-right p:not(#foo) > input[type=radio]:checked + label {
+ background-position: 0 -19px;
+}

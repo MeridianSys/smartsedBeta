@@ -1,0 +1,64 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Poedit 1.5\n"
+"Report-Msgid-Bugs-To: poedit@googlegroups.com\n"
+"POT-Creation-Date: 2010-05-07 08:40+0200\n"
+"PO-Revision-Date: 2010-09-19 10:37+0800\n"
+"Last-Translator: YIP SIU <yip.siu@cnbtec.cn>\n"
+"Language-Team: \n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Chinese\n"
+"X-Poedit-Country: CHINA\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+
+msgid "Registration_heading"
+msgstr "报名表"
+msgid "Registration_title_mr"
+msgstr "先生"
+msgid "Registration_title_ms"
+msgstr "女士"
+msgid "Registration_title_mrs"
+msgstr "夫人"
+
+msgid "My_native_lang"
+msgstr "我的母语是"
+msgid "My_fluent_lang"
+msgstr "我也能说流利的"
+msgid "My_learn_lang"
+msgstr "我想学习"
+
+msgid "Address"
+msgstr "地址"
+msgid "Country"
+msgstr "请选择国家"
+msgid "State"
+msgstr "请选择国家"
+msgid "otherState"
+msgstr "州"
+msgid "City"
+msgstr "请选择城市"
+msgid "otherCity"
+msgstr "城市"
+msgid "Confirm_password"
+msgstr "确认密码"
+
+msgid "Coupon"
+msgstr "激活码"
+msgid "terms"
+msgstr "我接受"
+msgid "cond"
+msgstr "条款及条件"
+msgid "submitproceed"
+msgstr "提交及继续"
+
+
+

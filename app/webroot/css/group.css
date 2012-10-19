@@ -1,0 +1,302 @@
+.groupsection{
+	width:980px;
+	margin:auto;
+        margin-bottom: 100px;
+        margin-top:20px;
+}
+.mygroupbg{
+	width:960px;
+	border:2px solid #c5c5c5;
+	background-color:#e9e7e4;
+	background:-moz-linear-gradient(top, #fff, #e9e7e4);
+	background:-webkit-linear-gradient(top, #fff, #e9e7e4);
+	padding:10px 10px 10px 10px;
+	margin:0px 0px 20px 0px;
+	-moz-border-radius:5px 5px 5px 5px;
+	-webkit-border-radius:5px 5px 5px 5px;
+	-moz-box-shadow: 0px 0px 3px #dcdcdc;
+	-webkit-box-shadow: 0px 0px 3px #dcdcdc;
+	box-shadow: 0px 0px 3px #666;
+	box-shadow: inset 0px 0px 2px #fff;
+}
+
+.mygroup{
+	width:220px;
+	float:left;
+	border: solid 1px #c4c4c4;
+	padding:2px 0px 2px 0px;
+	border-radius:5px;
+}
+
+.accordion {
+	width:220px;
+	padding:0px 0px 0px 0px;
+	border-radius:5px;
+}
+.accordion h3 {
+	background: #e5edf8 url(../img/arrow-square.png) no-repeat right -51px;
+	padding:5px 15px;
+	margin:0px;
+	font: bold 12px Arial, Helvetica, sans-serif;
+	border:solid 1px #c4c4c4;
+	border-bottom:none;
+	border-left:none;
+	border-right:none;
+	border-top:none;
+	cursor:pointer;
+	color:#000;
+
+}
+.accordion h3:hover {
+	background-color:#e5edf8;
+	color:#000;
+}
+.accordion h3.active {
+	background-position:right 5px;
+}
+.accordion ul {
+	list-style:none;
+	margin:0px 0px 10px 0px;
+	padding:0px;
+}
+
+.accordion li {
+	margin:0px;
+	/*position:relative;*/
+	font-size:12px;
+	font-weight:bold;
+	color:#3e3d3d;
+        clear: both;
+}
+
+.accordion li .group{
+	padding:10px 10px 5px 15px;
+	margin:0px;
+	font-size:12px;
+	font-weight:bold;
+	color:#f08f19;
+}
+.accordion li .group span{
+	font-size:12px;
+	font-weight:normal;
+	color:#000;
+}
+.accordion li .group select{
+	width:100%;
+	border:1px solid #b1aeae;
+	margin:5px 0px 0px 0px;
+}
+.accordion li .group input[type=text]{
+	width:100%;
+	border:1px solid #b1aeae;
+	margin:5px 0px 0px 0px;
+}
+
+.accordion li a {
+	font-size:12px;
+	font-weight:bold;
+	color:#3e3d3d;
+	background-color:#e9e7e7;
+	text-decoration:none;
+	margin:0px 0px 0px 0px;
+	padding: 5px 5px 5px 15px;
+	border-top:1px solid #fff;
+        border-bottom:1px solid #fff;
+	display:block;
+}
+
+.accordion li a:hover .remove{
+
+        background: url(../img/close_x.png) no-repeat top right;
+	margin:-2px 10px 0px 0px;
+        position: relative;
+        float: right;
+        right:0px;
+        height: 16px;
+        width: 16px;
+}
+
+.accordion li input[type=text]{
+    color: #CCCCCC;
+    float: left;
+    font-style: italic;
+    margin-right: 5px;
+    width: 160px;
+    margin: 5px 0px 5px 10px;
+    border:1px solid #b1aeae;
+    height: 20px;
+}
+.accordion li input.add{
+    background-color: #000;
+    width: 20px;
+    height: 20px;
+    margin: 6px 10px 0px 0px;
+    font-weight: bold;
+    color: #fff;
+    font-size: 14px;
+    float: right;
+    text-align: center;
+    border-radius:2px;
+    border: none;
+}
+
+
+.accordion li a:hover {
+	font-size:12px;
+	font-weight:bold;
+	color:#3e3d3d;
+	text-decoration:none;
+	margin:0px 0px 0px 0px;
+	padding: 5px 5px 5px 15px;
+	display:block;
+}
+
+.createmygroup{
+	width:690px;
+	float:right;
+	border:1px solid #999;
+	padding:10px 10px 10px 10px;
+	border-radius:5px;
+}
+.createmygroup .grouppart .mutipleselect {
+	background:url(../img/mutiple-sect-box.png) no-repeat;
+	width:208px;
+	height:69px;
+	padding:5px 10px 5px 10px;
+	z-index:100;
+	margin:0px 0px 0px 0px;
+	line-height:25px;
+}
+.createmygroup .grouppart .mutipleselect select{
+	width:208px;
+	height:69px;
+        overflow: hidden;
+        padding: 0 0px 0 0;
+	border:0px;
+	background:none;
+	background-image:none;
+}
+.createmygroup .grouphead{
+	border-bottom:1px solid #ccc;
+	color:#000;
+	font: bold 12px Arial, Helvetica, sans-serif;
+	padding:0px 0px 5px 0px;
+	clear:both;
+}
+.createmygroup .grouphead .txtlf{
+	float:left;
+}
+.createmygroup .grouphead .txtrt{
+	float:right;
+}
+.createmygroup .grouppart{
+	background-color:#fff;
+	width:410px;
+	border:1px solid #b1aeae;
+	padding:5px 10px 7px 10px;
+	margin:10px 0px 0px 0px;
+	font-weight:bold;
+	font-size:12px;
+	color:#3e3d3d;
+	vertical-align:middle;
+}
+.createmygroup .grouppart p{
+	margin:0px 0px 5px 0px;
+	padding:0px;
+	color:#f08f19;
+}
+.createmygroup .grouppart input[type=text]{
+	width:100%;
+	height:20px;
+	border:1px solid #b1aeae;
+	margin:0px 0px 0px 0px;
+}
+.createmygroup .grouppart select{
+	width:100%;
+	height:25px;
+	border:1px solid #b1aeae;
+	margin:0px 0px 0px 0px;
+}
+
+.myfriendimg {
+	margin: 20px 0 0;
+	padding: 0;
+	list-style: none;
+}
+.myfriendimg ul {
+	margin:0px;
+	padding:0px;
+	list-style:none;
+}
+.myfriendimg li {
+	background-color:#fff;
+	border:1px dashed #CCC;
+	border-radius:5px;
+	padding: 10px;
+	margin:10px 0px 0px 15px;
+	float: left;
+	position: relative;
+	text-align: center;
+	width: 130px;
+	height:120px;
+	cursor:pointer;
+}
+
+.myfriendimg li .caption input[type=checkbox] {
+    border: 1px solid #FFF;
+    text-decoration:none;
+    visibility: hidden;
+    position: absolute;
+    top:3px;
+    left: 3px;
+
+}
+.myfriendimg li.selected input[type="checkbox"], .myfriendimg li:hover input[type="checkbox"], .myfriendimg li:hover
+ {
+    visibility: visible;
+
+}
+.myfriendimg li.selected{
+    background-color: #f0f0f0;
+    border:1px dashed #000;
+
+}
+
+
+.myfriendimg li:hover {
+	background-color:#f0f0f0;
+	border:1px dashed #000;
+}
+.myfriendimg li img {
+	border-radius:5px;
+	border:none;
+	width:130px;
+	height:110px;
+	margin-bottom:2px;
+}
+.myfriendimg a {
+	display: block;
+	color: #000;
+	text-decoration: none;
+	font-weight: bold;
+	vertical-align:baseline;
+}
+.myfriendimg a:hover {
+	color: #000;
+	text-decoration: underline;
+	font-weight: bold;
+	vertical-align:baseline;
+}
+
+.frnd{
+    width: 150px;
+    border: 1px solid #ccc;
+    margin: 0px 0px 0px 10px;
+    
+}
+ .msgtextarea{
+        height: 70px;
+        width: 348px;
+        border: 1px solid #ccc;
+        box-shadow: 0px 0px 3px 0px #ccc;
+}

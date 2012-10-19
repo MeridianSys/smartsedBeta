@@ -1,0 +1,202 @@
+/* 
+    Document   : h
+    Created on : Aug 16, 2011, 3:36:01 PM
+    Author     : root
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+
+root { 
+    display: block;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+span.dragged {
+	cursor: all-scroll !important;
+	border-color: #cc0000 !important;
+	z-index: 300 !important;
+}
+
+a.keyLink {
+	position: absolute;
+	top: -20px;
+	right: 0px;
+	width: 20px;
+	height: 20px;
+	border: 1px solid #000000;
+	background-image: none;
+	font-size: 120%;
+	text-align: center;
+	padding: 0;
+	background-color: #ffffff;
+	opacity: .5;
+}
+
+.picker_layer {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	text-decoration: none;
+	background-color: #d4d0c8;
+	border-width: 1px;
+	border-style: solid;
+	border-color: #666666;
+	overflow: visible;
+	height: auto;
+	width: auto;
+}
+.picker_buttons {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	background-color:#d4d0c8;
+	border-style:solid;
+	border-color:#666666;
+	border-width:1px;
+	padding:1px;
+	cursor:pointer;
+	color:#000000;
+}
+.cell_color {
+	cursor:pointer;
+	width:9px;
+	height:9px;
+}
+.color_table {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	text-decoration: none;
+}
+.choosed_color_cell{
+	border-style:solid; border-color:#000000; border-width:1px;
+}
+.default_color_btn{
+	width:17px; height:17px; background-image:url(http://www.smartsed.com/smartsed/app/webroot/inkbar/inkbaropera/icons/Close.png);
+	background-repeat:no-repeat; background-position:center;
+        cursor:pointer;
+}
+
+.stickyNoteCSSClass{
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 0px;
+  border-bottom-left-radius: 0px;
+ 
+  box-shadow: 5px 5px 5px #888888
+}
+
+.stickyTitle{
+   border-top-left-radius:  10px;
+   border-top-right-radius:  10px;
+   border-bottom-left-radius:  0px;
+   border-bottom-right-radius:  0px;
+   background-color: #000000;
+}
+
+.dottedSpan{
+  
+    -o-border-image: none;    
+    border-color: #FFFFFF;
+    border-style: none solid none none;
+    border-width: 0 2px 0 0;
+    height: 32px;
+    margin: 3px 2px 1px 3px;
+    padding: 0;
+    width: 0;
+}
+
+.stickyNoteTextAreaCss{
+    width:98%;
+    min-height: 150px;
+    min-width: 185px
+}
+
+.tagCategoryDiv {
+  height: 500px;
+  width: 200px;
+}
+
+.MaskedDiv
+{
+    visibility: hidden;
+    position:absolute;
+    left:0px;
+    top:0px;
+    font-family:verdana;
+    font-weight:bold;
+    padding:40px;
+    z-index:100;
+    background-color: buttonface;
+    opacity:0.5;
+    /* ieWin only stuff
+    _background-image:none;
+    _filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=scale src='Mask.png');*/
+}
+
+.ModalPopup {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    font-style: normal;
+    background-color: #DECF2A;
+    position:absolute;
+    /* set z-index higher than possible */
+    z-index:10000;
+    visibility: visible;
+    color: Black;
+    border-style: solid;
+    border-color: #cccccc;
+    border-width: 1px;
+    width: 280px;
+    height :160px;
+}
+
+.toolbar{
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  box-shadow: 5px 5px 5px #888888
+}
+
+.placeholder{
+  color: #aaa;
+}
+
+.mailBoxTitle{
+   background: url('http://www.smartsed.com/smartsed/app/webroot/inkbar/inkbaropera/icons/bg.gif');
+   border-top-left-radius: 5px;
+   border-top-right-radius: 5px;
+}
+
+.mailBox{
+    z-index: 1000001;
+    border-top: #000000 2px solid;
+    border-left: #000000 2px solid;
+    border-right: #000000 2px solid;
+    border-bottom: #000000 2px solid;
+    top: 0px;
+    left: 0px;
+    position: fixed;
+    background-color: buttonface;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    -moz-border-radius-topleft: 10px;
+    -moz-border-radius-topright: 10px;
+    box-shadow: 5px 5px 5px #000000;
+    -moz-box-shadow: 5px 5px 5px #000000;
+    box-shadow: 5px 5px 5px #000000;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.error{
+    color: #FF0000;
+    font-weight: lighter;
+}

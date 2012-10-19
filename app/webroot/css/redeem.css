@@ -1,0 +1,158 @@
+
+img {
+	border:none;
+}
+.crl {
+	clear:both;
+}
+.section {
+	width:980px;
+	margin:auto;
+}
+.redeem-bg {
+	background:url(../img/addtocartbg.jpg) repeat-y;
+	width:893px;
+	margin:auto;
+	padding:20px 34px 100px 37px;
+        color: #595959;
+        font-family: Arial,Helvetica,sans-serif;
+        font-size: 14px;
+        line-height: 18px;
+}
+.redeem-bg h1 {
+	font-size:28px;
+	font-weight:bold;
+	color:#595959;
+	margin:0px 0px 0px 0px;
+	padding:20px 0px 0px 0px
+           
+}
+.redeem-bg p {
+	font-size:12px;
+	color:#595959;
+	margin:0px 0px 0px 0px;
+	padding:20px 0px 20px 0px;
+}
+.redeemboxbg {
+	margin-bottom:10px;
+}
+.leftbox {
+	width:647px;
+	float:left;
+	font-size:12px;
+	background-color:#f7f7f7;
+	padding:10px;
+	border:1px solid #dcdcdc;
+	-moz-border-radius:5px;
+	border-radius:5px;
+}
+.leftbox .column{
+	min-height: 300px;
+}
+.leftbox #column_1{
+	width:206px;
+	margin-right:14px;
+	float:left;
+        
+}
+.leftbox #column_2{
+	width:206px;
+	margin-right:14px;
+	float:left;
+        
+}
+.leftbox #column_3{
+	width:206px;
+	margin-right:0px;
+	float:right;
+        
+}
+.leftbox .smallbox {
+	width:190px;
+	background-color:#fff;
+	margin:0px 0px 15px 0px;
+	padding:8px;
+	/*border:1px solid #bcbcbc;*/
+	-moz-border-radius:5px;
+	border-radius:5px;
+	-moz-box-shadow:    0px 0px 3px 0px #545454;
+  	-webkit-box-shadow: 0px 0px 3px 0px #545454;
+  	box-shadow:         0px 0px 3px 0px #545454;
+        position: relative;
+}
+.leftbox #column_1 #column_2 #column_3  .dropbox {
+	width:190px;
+	position: relative;
+}
+.leftbox .column .placeholder{
+	background: #f0f0f0;
+	border:2px dashed #883533;
+}
+
+.leftbox  .smallbox .productbx {
+	width:190px;
+	height:135px;
+	float:left;
+	padding:0px 0px 10px 0px;
+	margin:0px 0px 2px 0px;
+	background-color:#fff;
+	border-bottom:1px solid #dcdcdc;
+
+}
+.leftbox .smallbox .productbx img {
+	width:190px;
+	height:auto;
+	margin:0px;
+	padding:0px;
+}
+.leftbox .smallbox .productbx img.mar {
+	margin-top:40px;
+
+}
+.leftbox p {
+	color:#000000;
+	margin:0px;
+	padding:0px;
+}
+.leftbox span {
+	color:#fd771e;
+	margin:0px;
+	padding:0px;
+}
+.rightbox {
+	width:190px;
+	float:right;
+	background-color:#ffffff;
+	background:-moz-linear-gradient(top, #ffffff, #f6f6f6);
+	padding:10px;
+	border:1px solid #dcdcdc;
+	-moz-border-radius:5px;
+	border-radius:5px;
+}
+.redeempointbg {
+	margin:10px 0px 0px 0px;
+}
+.redeempointbg tr.bgcolr {
+	background-color:#fff;
+	background:-moz-linear-gradient(top, #ffffff, #efefef);
+}
+.redeempointbg td.border {
+	border-left:1px solid #d8d8d8;
+	border-bottom:1px solid #d8d8d8;
+	padding:2px 0px 2px 5px;
+	font-size:12px;
+	color:#000000;
+}
+.redeempointbg td {
+	font-size:12px;
+	color:#000000;
+	padding:2px 0px 2px 5px;
+}
+.redeempointbg .txt-field {
+	border: 1px solid #888687;
+        font-size: 11px;
+        height: 15px;
+        margin: 10px 0 0;
+        width: 22px;
+}
+

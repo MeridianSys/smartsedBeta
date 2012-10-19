@@ -1,0 +1,73 @@
+.Orange-BTN {
+	font-family: 'Conv_MyriadPro-Semibold';
+	margin-top:20px;
+	*margin-top:20px;
+	z-index:1000;
+	float:left;
+	padding:0px;
+}
+.Orange-BTN ul {
+	margin:0px 0px 0px 0px;
+	padding:0px;
+	list-style:none;
+}
+.Orange-BTN li {
+	float:left;
+	margin:0px 10px 0px 0px;
+	padding:0px;
+	list-style:none;
+}
+.Orange-BTN li a {
+	float:left;
+	background:url(../img/Orange-btn-left-bg.png) no-repeat;
+	color:#fff;
+	font-size:17px;
+	font-weight:bold;
+	padding:0px 0px 0px 13px;
+	line-height:28px;
+	display: block;
+	cursor:pointer;
+	height:38px;
+	text-decoration:none;
+}
+.Orange-BTN li a img{
+	border:none;
+}
+.Orange-BTN li a span {
+	float:left;
+	cursor:pointer;
+	background:url(../img/Orange-btn-right-bg.png) no-repeat right top;
+	padding:5px 13px 0px 2px;
+	height:33px;
+	color:#fff;
+	font-size:17px;
+	margin:0px;
+}
+
+/*////////////////////////////--Green-BTN--////////////////////////////////*/
+.login-BTN button{
+	float:left;
+	cursor:pointer;
+        background: -webkit-linear-gradient(top, #74aa47, #22602b);/*mozill*/
+	background: -moz-linear-gradient(top, #74aa47, #22602b);/*mozill*/
+        border: 1px solid #22602b;
+        border-radius:4px 4px 4px 4px;
+	padding-bottom: 3px;
+	padding-right:5px;
+	padding-left:7px;
+	height:24px;
+	color:#fff;
+	font-size:12px;
+	margin:0px;
+	text-align:center;
+	vertical-align:top;
+	font-weight:bold;
+}
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+    /* Safari and Google Chrome only - fix margins */
+    .login-BTN button {
+        padding-bottom: 0px;
+	padding-right:5px;
+	padding-left:7px;
+    }
+}

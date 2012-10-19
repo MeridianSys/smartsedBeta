@@ -1,0 +1,558 @@
+/* 
+    Document   : message
+    Created on : Oct 10, 2011, 12:00:50 PM
+    Author     : Nikesh
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+/*///////////////////4/8/2011-Changes for inbox functionality pradeep/////////////////////////////*/
+#footer-utility section {
+	position: relative;
+
+}
+
+#footer-utility section #messages-utility {
+	background: url(../img/bg-messages-utility.png) left top no-repeat;
+	float: left;
+	height: 32px;
+	width: 245px;
+}
+#footer-utility section #messages-utility p {
+	color:#fff;
+	margin:2px 0 0 0px;
+}
+#footer-utility section #messages-utility p b {
+	color:#fff;
+	font-size:14pt;
+}
+#footer-utility section #messages-utility p a {
+	color:#fff;
+	text-decoration:none;
+}
+#footer-utility section #messages-utility p a:hover {
+	text-decoration:underline;
+}
+#footer-utility section #inbox {
+	background:url(../img/inbox.png) no-repeat;
+	height: 359px;
+	color:#fff;
+	left: -9px;
+	position: absolute;
+	top: -320px;
+	width: 242px;
+	padding:7px 11px 0px 9px;
+}
+#footer-utility section #inbox .inboxtext{
+        font-size:14px;
+	color:#FFF;
+	font-weight:bold;
+        height: 20px;
+        padding:0px 5px 5px 10px;
+}
+
+#footer-utility section #inbox .chatbg {
+	width:241px;
+	height:281px;
+	overflow:auto;
+	margin:auto;
+	padding:0px 0px 0px 2px;
+}
+#footer-utility section #inbox .chatbg .tdname td {
+	border-bottom:1px solid #000000;
+	height:30px;
+	color:#000000;
+	padding:10px 0px 2px 0px;
+	font-weight:bold;
+}
+#footer-utility section #inbox .chatbg .tdbg td {
+	border-bottom:none;
+	font-size:11px;
+	background-color:#b4ebf7;
+	height:25px;
+	color:#000000;
+	padding:10px 0px 7px 0px;
+	font-weight:bold;
+}
+#footer-utility section #inbox .chatbg .tdgrantbg td {
+	border-bottom:none;
+	font-size:11px;
+	background:url(../img/tdgrantbg.png) repeat-x;
+	height:29px;
+	color:#000000;
+	padding:10px 0px 8px 0px;
+	font-weight:bold;
+}
+
+/*///////////////////End-4/8/2011-Changes Pradeep/////////////////////////////*/
+
+/************************** CHAT - STARTS ****************************/
+#footer-utility section .move-back {
+	position: relative;
+	left: -264px;
+}
+#footer-utility section .move-over {
+	position: relative;
+	left: 264px;
+	background: none !important;
+}
+#footer-utility section #chat-utility {
+	float: right;
+}
+#footer-utility section #chat-box {
+	background: transparent url(../img/chatmainbg.png) top left no-repeat;
+	height:315px;
+	color:#FFF;
+	font-weight:bold;
+	position: absolute;
+	right: 0;
+	top: -320px;
+	width:200px;
+	z-index: 9999;
+	padding:5px 5px 0px 5px;
+	display:none;
+}
+
+#footer-utility section #chat-box .headname{
+	color:#FFF;
+	font-weight:bold;
+	float:left;
+}
+
+#footer-utility section #chat-box .user {
+	margin:20px 0px 0px 0px;
+	padding:0px 5px 0px 0px;
+	height:257px;
+	overflow:auto;
+}
+#footer-utility section #chat-box .user ul{
+	margin:0px 0px 0px 0px;
+	padding:0px;
+	list-style:none;
+
+}
+#footer-utility section #chat-box .user ul li{
+	background:url(../img/dispoff.png) no-repeat right;
+	margin:0px 0px 0px 0px;
+	padding:5px 0px 5px 0px;
+	color:#000;
+	cursor:pointer;
+}
+#footer-utility section #chat-box .user ul li.active{
+	background:url(../img/dispon.png) no-repeat right;
+	margin:0px 0px 0px 0px;
+	padding:5px 0px 5px 0px;
+	color:#000;
+	cursor:pointer;
+}
+#footer-utility section #chat-box .user ul li a{
+	margin:0px 0px 0px 0px;
+	padding:5px 0px 5px 0px;
+	color:#000;
+	cursor:pointer;
+	text-decoration:none;
+}
+#footer-utility section #chat-box .user ul li a:hover{
+	margin:0px 0px 0px 0px;
+	padding:5px 0px 5px 0px;
+	color:#000;
+	cursor:pointer;
+	text-decoration:none;
+}
+/**************************** CHAT - ENDS ****************************/
+/*//////////////////////////Compose-mail create by pradeep///////////////////////////////////////*/
+
+
+
+#composebg{
+	width:970px;
+	margin: auto;
+        Padding:25px 0px 25px 0px;
+
+}
+
+#composebg .leftBg{
+	width:159px;
+	float:left;
+        background-color:#FFF;
+        margin-top: 10px;
+}
+
+#composebg .leftBg ul{
+	margin:35px 0px 0px 0px;
+	padding:0px;
+	list-style:none;
+}
+#composebg .leftBg li{
+	padding:2px 0px 2px 0px;
+	position:relative;
+
+}
+#composebg .leftBg li a{
+	display:block;
+	padding:5px 0px 5px 12px;
+	font-family:Arial;
+	font-size:16px;
+	color:#000;
+	text-decoration:none;
+	line-height:20px;
+}
+#composebg .leftBg li a:hover{
+	background-color:#eba01e;
+	font-family:Arial;
+	font-size:16px;
+	color:#000;
+	font-weight:bold;
+	text-decoration:none;
+
+}
+#composebg .leftBg li a.active{
+	background-color:#eba01e;
+	font-family:Arial;
+	font-size:16px;
+	color:#000;
+	font-weight:bold;
+	text-decoration:none;
+
+}
+
+#composebg .rightBg{
+	width:510px;
+	float:left;
+	background-color:#FFF;
+	border:3px solid #FFF;
+	padding:20px 12px 12px 12px;
+        margin-top: 10px;
+        margin-bottom: 70px;
+}
+#composebg .rightBg strong{
+	float:left;
+        margin-top: 5px;
+}
+
+#composebg .rightBg .textbox{
+	/*width:670px;*/
+	float:right;
+	/*border:1px solid #ccc;*/
+	/*height:25px;*/
+	background-position:top;
+}
+#composebg .rightBg .textboxMsg{
+	width:400px;
+	float:right;
+	border:1px solid #ccc;
+	height:300px;
+	background-position:top;
+}
+
+#composebg .rightBg .textfield{
+	width:430px;
+	float:right;
+	border:1px solid #ccc;
+	height:22px;
+	background-position:top;
+}
+#composebg .rightBg .tohigt{
+        float:right;	
+        width:510px;
+        margin: 10px 0px 10px 0px;
+}
+
+
+#composebg .rightBg .subhigt{
+	margin:0px 0px 20px 0px;
+	height:0px;
+}
+#composebg .rightBg .msghigt{
+	margin:0px 0px 20px 0px;
+        width:460px; float:right; height: 270px;
+}
+
+
+
+/*//////////////////////////inbox-mail create by pradeep///////////////////////////////////////*/
+#composebg .inbxrightBg{
+	width:530px;
+	float:left;
+	background-color:#FFF;
+	border:3px solid #FFF;
+	padding:12px 12px 12px 12px;
+        margin-top: 10px;
+}
+
+#composebg .inbxrightBg .inbox{
+	padding:0px 0px 30px 0px;
+}
+#composebg .inbxrightBg .inbox .inboxnamebg{
+	height:26px;
+	background-color:#f4f4f3;
+	border-bottom:1px solid #000000;
+	padding:5px 10px 0px 10px;
+}
+
+#composebg .inbxrightBg .inbox .inboxnamebg .name{
+	font-size:14px;
+	color:#000000;
+	font-weight:bold;
+	width:150px;
+	float:left;
+	padding:5px 0px 0px 20px;
+}
+
+#composebg .inbxrightBg .inbox .inboxnamebg .subjt{
+	font-size:14px;
+	color:#000000;
+	font-weight:bold;
+	width:190px;
+	float:left;
+	padding:5px 0px 0px 0px;
+}
+#composebg .inbxrightBg .inbox .inboxnamebg .date{
+	font-size:14px;
+	color:#000000;
+	font-weight:bold;
+	width:100px;
+	float:left;
+	padding:5px 0px 0px 0px;
+}
+#composebg .inbxrightBg .inbox .inboxnamebg .delete{
+	width:50px;
+	float:left;
+	padding:0px 0px 0px 0px;
+}
+
+#composebg .inbxrightBg .inbox .inboxmail{
+	border-bottom:1px solid #595959;
+	font-size:12px;
+/*	background-color:#b4ebf7;*/
+	height:29px;
+/*	color:#27652c;*/
+	color:#000000;
+	font-weight:bold;
+	padding:0px 10px 0px 10px;
+	cursor:pointer;
+}
+#composebg .inbxrightBg .inbox .inboxmail .name{
+	font-size:12px;
+	color:#000000;
+	font-weight:bold;
+	width:150px;
+	float:left;
+	padding:5px 0px 0px 20px;
+}
+
+#composebg .inbxrightBg .inbox .inboxmail .subjt{
+	font-size:12px;
+	color:#000000;
+	font-weight:bold;
+	width:190px;
+	float:left;
+	padding:5px 0px 0px 5px;
+}
+#composebg .inbxrightBg .inbox .inboxmail .date{
+	font-size:12px;
+	color:#000000;
+	font-weight:bold;
+	width:100px;
+	float:left;
+	padding:5px 0px 0px 0px;
+}
+#composebg .inbxrightBg .inbox .inboxmail .delete{
+	float:left;
+	padding:5px 0px 0px 20px;
+}
+#composebg .inbxrightBg .inbox .inboxmail .delete .checkbox {
+	background:url(../img/chekbox.png) no-repeat;
+	width:20px;
+	height:17px;
+}
+
+
+#composebg .inbxrightBg .inbox .inboxmailsebg{
+	border-bottom:1px solid #595959;
+	font-size:11px;
+	background:url(../img/tdgrantbg.png) repeat-x;
+	height:29px;
+	color:#000000;
+	padding:0px 10px 0px 10px;
+	font-weight:bold;
+	cursor:pointer;
+}
+#composebg .inbxrightBg .inbox .inboxmailsebg .name{
+	font-size:12px;
+	color:#000000;
+	font-weight:bold;
+	width:150px;
+	float:left;
+	padding:5px 0px 0px 20px;
+}
+
+#composebg .inbxrightBg .inbox .inboxmailsebg .subjt{
+	font-size:12px;
+	color:#000000;
+	font-weight:bold;
+	width:190px;
+	float:left;
+	padding:5px 0px 0px 5px;
+}
+#composebg .inbxrightBg .inbox .inboxmailsebg .date{
+	font-size:12px;
+	color:#000000;
+	font-weight:bold;
+	width:100px;
+	float:left;
+	padding:5px 0px 0px 0px;
+}
+#composebg .inbxrightBg .inbox .inboxmailsebg .delete{
+	float:left;
+	padding:5px 0px 0px 20px;
+}
+#composebg .inbxrightBg .inbox .inboxmailsebg .delete .checkbox {
+	background:url(../img/chekbox.png) no-repeat;
+	width:20px;
+	height:17px;
+}
+
+#composebg .inbxrightBg .inbox .paging{
+	float:left;
+	font-size:12px;
+	color:#000000;
+	font-weight:bold;
+	margin:30px 0px 0px 0px;
+}
+#composebg .inbxrightBg .inbox .paging span{
+	float:left;
+	font-size:12px;
+	color:#000000;
+	font-weight:bold;
+}
+#composebg .inbxrightBg .inbox .paging ul{
+	list-style:none;
+	margin:0px;
+	padding:0px;
+	font-size:12px;
+	color:#000000;
+	font-weight:bold;
+}
+#composebg .inbxrightBg .inbox .paging li{
+	width:25px;
+	height:25px;
+	font-size:12px;
+	color:#000000;
+	font-weight:bold;
+	float:left;
+	position:relative;
+}
+#composebg .inbxrightBg .inbox .paging li a{
+	display:block;
+	margin:0px 5px 0px 0px;
+	padding:0px 0px 0px 0px;
+	font-size:12px;
+	color:#eba01e;
+	font-weight:bold;
+	text-align:center;
+	vertical-align:middle;
+	background-color:#FFF;
+	border:1px solid #000000;
+	text-decoration:none;
+
+}
+#composebg .inbxrightBg .inbox .paging li a:hover{
+	font-size:12px;
+	color:#000000;
+	font-weight:bold;
+	text-align:center;
+	vertical-align:middle;
+	background-color:#FFF;
+	border:1px solid #eba01e;
+	text-decoration:none;
+}
+#composebg .inbxrightBg .inbox .paging li a.active{
+	font-size:12px;
+	color:#000000;
+	font-weight:bold;
+	text-align:center;
+	vertical-align:middle;
+	background-color:#FFF;
+	border:1px solid #eba01e;
+	text-decoration:underline;
+}
+.PrevPg
+{
+  margin-right: 10px;
+}
+
+.NextPg
+{
+  margin-left: 10px;
+}
+.FirstPg
+{
+  margin-right: 10px;
+}
+
+.LastPg
+{
+  margin-left: 10px;
+}
+
+.DisabledPgLk
+{
+  width: 50px;
+  display: inline;
+}
+
+.message { color:#000000;}
+/**************************************************************************************
+*********************************************************************************************/
+/* ERROR CSSS - STARTS */
+.error-message-regst {
+   color: #D40000;
+   margin-bottom: 5px;
+}
+
+.error { font-size:12px; color:#FF0000; padding: 8px 2px; clear: both; }
+.error2 { font-size:12px; color:#FF0000; padding: 32px 2px; clear: both; }
+.checkbox{
+    float: left;
+    font-size: 12px;
+    font-weight: bold;
+
+}
+.groupchek{
+   list-style: none;
+   margin: 10px 0px 10px 0px; border: 1px solid #ccc; padding: 10px;
+   clear: both;
+}
+.groupchek fieldset legend{
+    display: none;
+    float: left;
+    margin: 0px;
+}
+.groupchek fieldset{
+    float: left;
+    margin: 0px 10px 0px 0px;
+    font-size: 12px;
+    font-weight: bold;
+}
+.groupchek fieldset input[type=checkbox]{
+    margin-right: 8px;
+    margin-left: 8px;
+}
+.groupchek input[type=checkbox]{
+    margin-right: 8px;
+    margin-left: 8px;
+}
+.error-message {
+    color: #FF0000;
+    font-size: 11px;
+    font-style: normal;
+    margin: 31px 0 0 3px;
+    position: relative;
+}
+/* ERROR CSSS - ENDS */

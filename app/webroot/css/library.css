@@ -1,0 +1,62 @@
+.mylibrary{
+    width:86%;
+    margin:auto;
+}
+
+ .mylibrary .detail{
+    background-color: #f7b22c;
+    background-repeat: repeat-y; /* Safari 4-5, Chrome 1-9 */
+    background: -webkit-gradient(linear, from(#f7b22c), to(#d76d26)); /* Safari 5.1, Chrome 10+ */
+    background: -webkit-linear-gradient(top, #f7b22c, #d76d26); /* Firefox 3.6+ */
+    background: -moz-linear-gradient(top, #f7b22c, #d76d26); /* IE 10 */
+    background: -ms-linear-gradient(top, #f7b22c, #d76d26); /* Opera 11.10+ */
+    background: -o-linear-gradient(top, #f7b22c, #d76d26);
+    padding:0px;
+    border:1px solid #d76d26;
+    border-radius:5px 5px 0px 0px;
+    color:#fff;
+    font-weight:bold;
+    font-size:14px;
+    margin:10px 0px 15px 0px;
+    width: 70%;
+}
+.mylibrary .detail input[type=text]{
+    width:70%;
+    height:20px;
+    margin:0px 0px 0px 0px;
+}
+
+.mylibrary .detail .row{
+    border-top:1px solid #d76d26;
+    color:#000;
+    font-weight:normal;
+}
+.mylibrary .detail .row td{
+    padding:5px 0px 5px 5px;
+    color:#000;
+    font-weight:normal;
+    border-bottom:1px solid #d76d26;
+}
+.mylibrary .detail .row tr{
+    background-color:#fff;
+    color:#000;
+    border-bottom:1px solid #d76d26;
+}
+.mylibrary .detail .row tr:hover{
+    background-color:#f1f1f1;
+    cursor:pointer;
+}
+.mylibrary .detail .row td a{
+    padding:0px 0px 0px 5px;
+    color:#000;
+    font-weight:normal;
+}
+.mylibrary .detail .row td a:hover{
+    padding:0px 0px 0px 5px;
+    color:#000;
+    font-weight:normal;
+}
+.mylibrary .detail .row_lft{
+    border-left:1px solid #d76d26;
+    padding:0px 0px 0px 5px;
+}

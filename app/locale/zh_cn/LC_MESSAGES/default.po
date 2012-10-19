@@ -1,0 +1,212 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Poedit 1.5\n"
+"Report-Msgid-Bugs-To: poedit@googlegroups.com\n"
+"POT-Creation-Date: 2010-05-07 08:40+0200\n"
+"PO-Revision-Date: 2010-09-19 10:37+0800\n"
+"Last-Translator: YIP SIU <yip.siu@cnbtec.cn>\n"
+"Language-Team: \n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Chinese\n"
+"X-Poedit-Country: CHINA\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+# Langing Page variables
+
+############## Header translation - starts ##################################
+#############################################################################
+
+msgid "header_email_one"
+msgstr "请输入电�?邮件地�?�"
+msgid "header_email_two"
+msgstr "请输入有效的电�?邮件地�?�"
+msgid "header_password"
+msgstr "请输入密�?"
+msgid "referal_msg"
+msgstr "使用逗�?�分隔多个电�?邮件地�?�。"
+
+
+msgid "Remember_Me"
+msgstr "记�?"
+
+msgid "Forgot_Password"
+msgstr "忘记密�?"
+
+msgid "CLOSE"
+msgstr "关闭 X"
+msgid "Message_Success"
+msgstr "密�?已�?�?��?�?功注册的电�?邮件地�?�。"
+msgid "Message_Fail"
+msgstr "请�??供注册的电�?邮件地�?�。"
+############## Header translation - ends ##################################
+#############################################################################
+
+############## Index translation - starts ##################################
+#############################################################################
+
+msgid "Inform"
+msgstr "通知"
+
+msgid "Explore"
+msgstr "探索"
+
+msgid "Inform_details_one"
+msgstr "第一诱因网上学习平�?�"
+
+msgid "Inform_details_two"
+msgstr "为学生和专业人士，寻求对�?在38�?语言�?畅。"
+
+msgid "Learn"
+msgstr "学习"
+
+msgid "Learn_details_one"
+msgstr "个性化的语言学习计划"
+
+msgid "Learn_details_two"
+msgstr "助您�?功在您的教育和�?�业抱负。"
+
+msgid "Earn"
+msgstr "赚"
+
+msgid "Earn_details_one"
+msgstr "学习�?�是为了赢得�?月奖�?"
+
+msgid "Earn_details_two"
+msgstr "和积累，�?功地完�?你的专属语言模�?�EDIV点。"
+
+msgid "Circle_of_Success"
+msgstr "访问�?功的�?"
+
+msgid "Circle_of_Success_details"
+msgstr "我们的用户已�?赢得SmartsEd退房。未�?�的EDIV得奖者将公布在："
+
+msgid "Btn_visit_now"
+msgstr "立�?�访问"
+
+msgid "Our_Network"
+msgstr "我们的网络"
+
+msgid "Our_Network1"
+msgstr "一个互动的环境中学习�?语。"
+
+msgid "Our_Network2"
+msgstr "建立�?汇，语法，写作，和�?�语技能。"
+
+msgid "Our_Network3"
+msgstr "获得接触到令人难忘的文化体验。"
+
+msgid "Our_Network4"
+msgstr "收购�?功，在�?�展语言能力的工具。"
+
+msgid "Our_Network5"
+msgstr "赢得�?月的现金和奖�?，�?�是为了学习。"
+
+msgid "Program_Details"
+msgstr "节目详情"
+
+msgid "Firstname"
+msgstr "�??字"
+msgid "Lastname"
+msgstr "姓"
+msgid "Join_email"
+msgstr "电�?邮件"
+msgid "Join_password"
+msgstr "密�?"
+msgid "Submit"
+msgstr "�??交"
+msgid "Login"
+msgstr "登录"
+msgid "Join"
+msgstr "加入"
+
+msgid "Refer_Friend"
+msgstr "�?�考 一 朋�?�"
+
+msgid "Refer_msg1"
+msgstr "邀请你的朋�?�进入他们的电�?邮件地�?�"
+
+msgid "Refer_msg2"
+msgstr "分隔多个ID是加入了"
+
+msgid "Refer_pop1"
+msgstr "感谢您的推�??�?一旦你的朋�?�上smarted.com登记"
+
+msgid "Refer_pop2"
+msgstr "将eDiv点在您eDiv�?户存入"
+
+msgid "OK"
+msgstr "确定"
+
+msgid "Cancel"
+msgstr "�?�消"
+
+msgid "Dashboard"
+msgstr "仪表盘"
+
+msgid "My_Account"
+msgstr "我的�?户"
+
+msgid "logout"
+msgstr "登出"
+
+msgid "About_us"
+msgstr "关于我们"
+
+msgid "termsandcond"
+msgstr "�?�款和�?�件"
+
+msgid "privacypolicy"
+msgstr "�?�?�?�政策"
+
+msgid "partners"
+msgstr "????"
+
+msgid "Help"
+msgstr "帮助"
+
+msgid "Thanks"
+msgstr "谢谢"
+
+msgid "contact_us"
+msgstr "�?�系我们"
+
+msgid "allrightsreserved"
+msgstr "Smartsed，公�?��?留所有�?�利"
+
+msgid "popmsg1"
+msgstr "英语"
+
+msgid "popmsg2"
+msgstr "本课程旨在帮助学生对英语会�?�?利的进展。包�?�12个级别和超过400�?时的内容，我们的英语模�?��??供语法教学，视频，互动活动，以建立一个强大的英语能力。"
+
+msgid "popmsg3"
+msgstr "其他语言"
+
+msgid "popmsg4"
+msgstr "我们还�??供法语，西�?�牙语，�?大利语和德语课程。与4个级别，从�?级到高级�?等，超过150�?时的内容，这些模�?��??供语法教学，视频，以�?��?��?线上活动，在这些语言中建立一个�?�实的基础。�?门课程还包括写作和角色扮演的练习，使学习者能够�?用他们的新技能。"
+
+msgid "popmsg5"
+msgstr "�?汇生�?器"
+
+msgid "popmsg6"
+msgstr "我们�??供38�?语言的基本�?汇为基础的课程。这些课程使用的字�?，短语，活动图�?和音频。这些模�?�的目标是建立�?�?的语言模�?，教�?汇，�?��?结构和语法。"
+
+msgid "popmsgtitle"
+msgstr "节目详情"
+
+msgid "popmsgclose"
+msgstr "关闭X"
+
+msgid "feedback"
+msgstr "??"
+
+############## Index translation - ends ##################################
+#############################################################################
